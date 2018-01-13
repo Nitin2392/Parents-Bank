@@ -13,7 +13,7 @@ namespace PAN_ParentsBank_Final.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult FR()
         {
             ViewBag.Message = "Your application description page.";
 
@@ -25,6 +25,11 @@ namespace PAN_ParentsBank_Final.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        public ViewResult About()
+        {
+            throw new NotImplementedException();
         }
     }
 }
